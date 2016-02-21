@@ -5,9 +5,9 @@ public class Bird {
     private String name;
     private Shelter nest;
 
-    public Bird() {
+    public Bird(Shelter nest) {
         this.name = "Dumb bird";
-        this.nest = new Nest();
+        this.nest = nest;
         System.out.println("'" + name + "' bird has born.");
     }
 
